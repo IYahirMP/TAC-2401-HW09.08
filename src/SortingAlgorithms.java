@@ -13,7 +13,7 @@ public class SortingAlgorithms {
         }
         System.out.println();
 
-        Sorter sorter = new InsertionSort();
+        Sorter sorter = new BubbleSort();
         sorter.sort(arr);
 
         for (int j : arr)
